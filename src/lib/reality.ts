@@ -61,8 +61,8 @@ export const realityCards = [
     child:
       "When the room is always on edge, kids who need calm and consistency get chaos instead — and learning becomes secondary to survival.",
     teachTruth:
-      "Bring teachers back with real behavior support — not blame theater. Conditions to teach are conditions to learn.",
-    pillarHref: "/#pillar-bring-teachers-back",
+      "Ruth’s plan teaches mastery of body and emotions — and puts behavior specialists on the Full Council — so behavior stops running schools.",
+    pillarHref: "/#pillar-whole-child-nation",
     actionHref: "/join",
     sourceNote: "RAND / EdWeek teacher stress findings; Pew classroom challenges",
   },
@@ -77,8 +77,8 @@ export const realityCards = [
     child:
       "Exhausted adults can’t offer the attention every child deserves. Time stolen from teachers is time stolen from kids.",
     teachTruth:
-      "Teachers take the wheel only if they have hours left to steer — planning time and staffing are reform, not perks.",
-    pillarHref: "/#pillar-teachers-take-the-wheel",
+      "Ruth’s free teacher pipeline, college students supporting 1:1, and forward–back reteach periods restore time to actually teach for mastery.",
+    pillarHref: "/#pillar-free-teacher-pipeline",
     actionHref: "/join",
     sourceNote: "Pew Research Center teacher workload survey",
   },
@@ -93,8 +93,8 @@ export const realityCards = [
     child:
       "Substitutes, revolving doors, and lost relationships hit kids first — especially students who already need more support, not less.",
     teachTruth:
-      "Bring teachers back is not nostalgia. It is how children keep advocates in the room.",
-    pillarHref: "/#pillar-bring-teachers-back",
+      "Free teacher colleges, real pay, and teacher-driven governance are how America brings educators back — and keeps them.",
+    pillarHref: "/#pillar-free-teacher-pipeline",
     actionHref: "/join",
     sourceNote: "Pew understaffing; Learning Policy Institute vacancy estimates",
   },
@@ -109,8 +109,8 @@ export const realityCards = [
     child:
       "Roughly one in four students is still chronically absent in many national snapshots — well above pre-pandemic norms — and recovery stalls when seats stay empty.",
     teachTruth:
-      "Every child, not every score means belonging and presence matter. Attendance is learning infrastructure.",
-    pillarHref: "/#pillar-every-child-not-every-score",
+      "Belonging, outdoor time, mastery, and whole-child design make school a place kids want — and need — to be.",
+    pillarHref: "/#pillar-whole-child-nation",
     actionHref: "/join",
     sourceNote: "Attendance Works; Education Scorecard; RAND district panels",
   },
@@ -125,8 +125,8 @@ export const realityCards = [
     child:
       "Especially in secondary grades, mental health barriers keep kids from learning, attending, and trusting school as a safe place.",
     teachTruth:
-      "Truth without fear includes naming the load: classrooms need support systems, not silent martyrdom.",
-    pillarHref: "/#pillar-truth-without-fear",
+      "Ruth’s Full Council puts counselors, psychologists, social workers, and pediatric voices into national design — and social-emotional mastery into the framework.",
+    pillarHref: "/#pillar-teacher-driven-governance",
     actionHref: "/join",
     sourceNote: "Pew Research Center — problems students face",
   },
@@ -141,8 +141,8 @@ export const realityCards = [
     child:
       "Attention is the raw material of childhood learning. When it is fractured all day, soft skills, deep reading, and peer connection erode.",
     teachTruth:
-      "Learning over testing theater also means protecting the conditions for attention — not only the scoreboard after the fact.",
-    pillarHref: "/#pillar-learning-over-testing-theater",
+      "Limited technology until age 10, a real tech curriculum, more outdoors, and teaching for mastery protect attention instead of surrendering it.",
+    pillarHref: "/#pillar-slow-down-for-mastery",
     actionHref: "/join",
     sourceNote: "Pew classroom challenges; national phone-policy research",
   },
@@ -151,17 +151,17 @@ export const realityCards = [
 export const spedSpotlight = {
   slug: "special-education",
   eyebrow: "Spotlight",
-  title: "The promise to students with disabilities was never fully funded",
+  title: "SPED changes belong at the center of reform — not the margin",
   answer:
-    "IDEA promised a free appropriate public education; federal funding has chronically fallen far short of the original commitment, leaving districts, teachers, and children to absorb the gap.",
-  body: "Congress authorized covering up to 40% of the excess cost of special education. In practice, federal support has often hovered near the low teens. The result is predictable: special education vacancies, crushing caseloads, paperwork that steals instructional time, and students waiting for services that law already says they deserve.",
+    "Ruth’s plan pairs special education with skill-level, multi-age learning and IEP process change so every student — including those who need specialized support — has an individualized path in core subjects.",
+  body: "When the whole school community shifts into multi-age learning sessions at each child’s level of ability, specialized support stops being a side track. The Full Council includes SPED behavioral health educators, autism specialists, life-skills educators, dyslexia specialists, OT, PT, SLP, and more — because children with disabilities deserve design power, not afterthoughts.",
   teacher:
-    "Special education roles are among the hardest to staff. Burnout isn’t a personal failure — it’s what underfunding + legal mandate + empty colleague chairs produces.",
+    "Special education roles are among the hardest to staff. Ruth’s answer includes specialists at the governance table and a pipeline of teacher-candidates supporting 1:1.",
   child:
-    "Students with IEPs and 504s are not side notes. When support is thin, inclusion becomes a slogan and childhood becomes a waitlist.",
+    "Students with IEPs are not side notes. Skill-not-age learning and accessible curriculum (including Dyslexie font, Braille, and multiple languages) protect dignity and mastery.",
   teachTruth:
-    "Every child, not every score is incomplete without special education truth: rights without resources are a broken promise.",
-  pillarHref: "/#pillar-every-child-not-every-score",
+    "Whole child, whole nation means special education truth is reform truth — rights, resources, and the right instructional level.",
+  pillarHref: "/#pillar-whole-child-nation",
   sourceNote:
-    "U.S. Commission on Civil Rights / IDEA funding analyses; special education shortage reporting",
+    "Ruth Lerno — Save USA Public Education deck; IDEA funding context in Classroom Reality",
 } as const;

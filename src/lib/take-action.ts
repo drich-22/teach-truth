@@ -51,7 +51,7 @@ export const actionOptions = [
     pledge: "I will invite one educator to listen and talk about the plan with me.",
     nextSteps: [
       "Text or email one colleague the Spotify link for Teacher Truth with Ruth.",
-      "Pick one episode or the “teachers take the wheel” idea as your opener.",
+      "Pick one episode — or Ruth’s “how do we save public education?” question — as your opener.",
       "Schedule a 15-minute hallway or coffee talk: what’s one change you’d make?",
     ],
   },
@@ -59,9 +59,9 @@ export const actionOptions = [
     id: "speak-local",
     title: "Speak up locally",
     summary: "Raise one issue with a board, PTA, admin, or community meeting.",
-    pledge: "I will raise one classroom-led reform point in a local conversation.",
+    pledge: "I will raise one teacher-driven reform point in a local conversation.",
     nextSteps: [
-      "Choose one reality theme (behavior support, time, absenteeism, special education, or testing theater).",
+      "Choose one theme (mastery vs. promotion, over-testing, recess, special education, or teacher pay).",
       "Write a 60-second statement centered on children — not blame theater.",
       "Deliver it at a meeting, in an email, or in a one-to-one with a decision-maker.",
     ],

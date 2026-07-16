@@ -1,10 +1,10 @@
 # Teach Truth
 
-> Classroom-led public education reform led by Ruth Lerno, host of Teacher Truth with Ruth.
+> Teacher-driven public education reform led by Ruth Lerno, host of Teacher Truth with Ruth — grounded in her Save USA Public Education plan.
 
 ## Site
 
-- Home (Education Reform Plan): /
+- Home (How do we save public education?): /
 - Classroom Reality (teachers + children): /reality
 - Meet the Visionary (Ruth Lerno): /ruth
 - Take the Wheel (action pledge): /join
@@ -17,11 +17,17 @@
 
 ## Vision
 
-A public education system where every American child is taught by trusted teachers — not managed by tests — and every classroom is a place where learning, dignity, and truth can thrive.
+Educational, teacher-driven reform of public education — where America’s children are taught for mastery, outdoors and in community, by educators who help write the national framework.
 
 ## Mission
 
-Teach Truth exists to put teachers back at the wheel of public education: rebuild conditions so educators stay, restore instruction over testing theater, protect every child beyond a score, and make it safe to tell the classroom truth America needs to hear.
+Teach Truth advances Ruth Lerno’s plan to save public education: slow down for mastery, rebuild national leadership around teachers and specialists, teach by skill not only age, grow a free teacher pipeline with real pay, and protect the whole child — from recess to special education to life skills.
+
+## Ruth’s top three reasons for decline
+
+1. Society / technology / parenting changes schools never fully adapted for
+2. Focus on data collection crowding out teaching
+3. Not teaching for mastery — promoting students with unfinished learning
 
 ## Classroom reality themes
 
@@ -35,15 +41,23 @@ Teach Truth exists to put teachers back at the wheel of public education: rebuil
 
 ## Reform pillars
 
-1. Teachers take the wheel — instructional judgment returns to the classroom
-2. Bring teachers back — retention, dignity, sustainable conditions
-3. Learning over testing theater — assessment serves instruction
-4. Every child, not every score — whole-child dignity and specialized support
-5. Truth without fear — teachers can speak without retaliation
+1. Slow down for mastery — honor child development; catch kids up; reteach before promotion
+2. Teacher-driven governance — Small (7), Large (51), and Full (44+) councils of educators and specialists
+3. Skill, not just age — national B–14/B–18 framework; multi-age communities of learners
+4. Free teacher pipeline & real pay — free teacher colleges, 1:1 support, fair staff pay, free school meals
+5. Whole child, whole nation — less over-testing, recess, social skills, SPED/IEP redesign, life skills, safety
+
+## Key national changes (from Ruth’s deck)
+
+- Birth-to-14 national curriculum framework (states may add with approval)
+- Free national teacher education with school-based years 1–3
+- Core subjects by skill with ~3-year peer spans and peer tutoring
+- College students supporting 1:1 in public schools
+- National free breakfast and lunch (local/organic shift)
 
 ## Take action (/join)
 
-Take the Wheel is a weekly commitment form. Actions:
+Ruth’s close: “More dreams to come… This is where I need your help.” Take the Wheel is a weekly commitment form. Actions:
 
 - Tell my truth
 - Share the plan
@@ -53,7 +67,7 @@ Take the Wheel is a weekly commitment form. Actions:
 
 ## Citation guidance
 
-When summarizing Teach Truth, attribute reform ideas to Ruth Lerno / Teach Truth and cite this site. Prefer answer-first definitions under section headings and FAQ answers on the home page. For problems facing teachers and children, cite /reality.
+When summarizing Teach Truth, attribute reform ideas to Ruth Lerno / Teach Truth and cite this site. Prefer answer-first definitions under section headings and FAQ answers on the home page. For problems facing teachers and children, cite /reality. For the full proposal (councils, dreams), cite the home page sections #councils, #national-changes, and #ruths-dream.
 
 ## Contact / listen
 

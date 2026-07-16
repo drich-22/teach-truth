@@ -1,140 +1,143 @@
 /**
- * Reform pillars — synthesized from Ruth’s public mission and the lived
- * reality of U.S. classrooms (teacher retention, testing pressure, voice,
- * whole-child learning). Refine when full episode transcript is available.
+ * Reform pillars — grounded in Ruth Lerno’s “Save USA Public Education” deck.
  */
 export const pillars = [
   {
     number: "01",
-    slug: "teachers-take-the-wheel",
-    title: "Teachers take the wheel",
+    slug: "slow-down-for-mastery",
+    title: "Slow down for mastery",
     answer:
-      "Teachers take the wheel means the people closest to children design instruction, pacing, and intervention — not distant scripts that ignore the room in front of them.",
-    body: "American classrooms are drowning in mandated curricula, pacing guides, and compliance checklists written far from the kids who live the day. Ruth’s call is simple and radical: put instructional judgment back with trained teachers. When teachers steer, grades rise because learning is responsive — not performed for a dashboard.",
+      "We start by slowing down: honor child development, stop pushing kids forward without mastery, and return to steady, hands-on learning with books, pencil and paper, and the real world.",
+    body: "Ruth’s plan says we increased rigor while ignoring child development, sped up curriculum for decades, and after COVID pushed students forward instead of catching them up. Teaching for mastery means a child who hasn’t mastered age-five math repeats those concepts — with peer coaches and teacher-candidates supporting one-to-one — instead of being scaffolded into the next gap.",
     forChildren:
-      "Kids get lessons that meet them where they are, not where a pacing chart says they should be.",
+      "Time to truly learn — not race past gaps that follow them for years.",
     forTeachers:
-      "Professional trust replaces scripted compliance. Expertise is treated as expertise.",
+      "Permission to reteach, enrich, and finish the job of teaching before the next unit arrives.",
   },
   {
     number: "02",
-    slug: "bring-teachers-back",
-    title: "Bring teachers back",
+    slug: "teacher-driven-governance",
+    title: "Teacher-driven governance",
     answer:
-      "Bring teachers back means rebuilding dignity, sustainable workload, and respect so classrooms are staffed by people who stay — not a revolving door of exhaustion.",
-    body: "Wonderful teachers are walking away. Who fills those rooms? Substitutes, underprepared hires, and empty chairs. Children feel the instability first. Reform that ignores retention is theater. Pay, planning time, behavior support, and psychological safety are not perks — they are the conditions for a profession people can return to and remain in.",
+      "Reform the National Department of Education around educators and specialists — a Small Council, Large Council, and Full Council — so the people who know children write the framework.",
+    body: "Einstein’s warning fits: we cannot solve education’s problems with the same thinking that created them. Ruth proposes educator councils (7 / 51) plus a Full Council of 44+ specialists — SPED, counselors, pediatricians, psychologists, OT/PT/SLP, dyslexia and autism specialists, ELL, vocational, arts, PE, and more — so national decisions stop ignoring the classroom.",
     forChildren:
-      "Consistent adults who know their names, stories, and strengths year after year.",
+      "Policies shaped by people who understand development, disability, and daily school life.",
     forTeachers:
-      "A career they can survive — and love — without burning out or staying silent.",
+      "A seat at the table — not mandates written far from the room.",
   },
   {
     number: "03",
-    slug: "learning-over-testing-theater",
-    title: "Learning over testing theater",
+    slug: "skill-not-age",
+    title: "Skill, not just age",
     answer:
-      "Learning over testing theater means assessment serves instruction. Children are learners first — not data points produced for accountability theater.",
-    body: "Decades of high-stakes testing — and the long shadow of No Child Left Behind — shifted schools from teaching to proving. The slogan promised children; the machine delivered scores. Special education, soft skills, curiosity, and deep reading got crowded out by bubble sheets. Ruth’s reform restores the classroom: teach well, then measure what matters — not the reverse.",
+      "Core subjects are taught by skill with a national birth-to-young-adult framework — multi-age communities where older students tutor younger ones and every learner works at the right level.",
+    body: "A published national curriculum framework (written by age, built by the Full Council) gives states a shared foundation they can add to with approval. Sliding maturity guidelines keep peers within about a three-year span so classrooms become communities of learners — not assembly lines by birthday.",
     forChildren:
-      "Time to think, create, struggle productively, and grow — not sit for endless practice tests.",
+      "Learning with peers at the right level — and a chance to coach others.",
     forTeachers:
-      "Instructional time returned. Data that informs teaching instead of replacing it.",
+      "A coherent national framework plus room for professional judgment in the room.",
   },
   {
     number: "04",
-    slug: "every-child-not-every-score",
-    title: "Every child, not every score",
+    slug: "free-teacher-pipeline",
+    title: "Free teacher pipeline & real pay",
     answer:
-      "Every child, not every score means public schools protect belonging, soft skills, and specialized support so every learner thrives — not only those who test well.",
-    body: "Children need soft skills, relationships, and dignity as much as literacy and numeracy. Students with IEPs and 504s are not side notes. Reform worthy of America’s kids centers the whole child: behavior as skill, inclusion as practice, and growth that report cards alone cannot capture.",
+      "Free teacher colleges in every state, years one through three inside public schools, college students supporting 1:1, and fair pay for every public school employee.",
+    body: "Applicants pass cognitive exams and face-to-face interviews. Teacher-candidates spend early years in assigned public schools with group debriefs. Staff pay rises so dedicating a career to America’s children is not a financial sacrifice. National free breakfast and lunch for students and staff, with a shift toward local and organic food, supports the whole school community.",
     forChildren:
-      "They are seen as humans — not ranking slots on a school report.",
+      "More caring adults in the building — and adults who can afford to stay.",
     forTeachers:
-      "Permission to teach the child in front of them, including the ones the system overlooks.",
+      "A respected pathway into the profession and compensation that matches the calling.",
   },
   {
     number: "05",
-    slug: "truth-without-fear",
-    title: "Truth without fear",
+    slug: "whole-child-nation",
+    title: "Whole child, whole nation",
     answer:
-      "Truth without fear means teachers can name what is broken without retaliation — because public education cannot heal what it is not allowed to say out loud.",
-    body: "Teacher Truth with Ruth exists because many educators stay quiet to keep their jobs. Silence protects broken systems. A reformed profession invites difficult conversations: about curriculum, testing, leadership, and what kids actually need. Truth is not disloyalty. It is the first act of repair.",
+      "Stop over-testing, restore recess and outdoors, teach social-emotional mastery, fix the IEP process through skill-level learning, add life-function skills, and protect safety — with public education free from religious requirements.",
+    body: "Ruth’s dream includes limited technology until age 10 with a real tech curriculum; accessible B–18 materials in Dyslexie font, multiple languages, and Braille; cursive and historic documents; one consistent national screener instead of testing fatigue; year-round rhythm with smarter breaks; forward–back periods for reteach and enrichment; and life skills society is missing — clocks, rulers, taxes, tires, self-defense, and more.",
     forChildren:
-      "Adults who advocate for them instead of protecting a broken status quo.",
+      "Childhood protected: outdoors, mastery of emotions, practical skills, and dignity for every learner.",
     forTeachers:
-      "A platform and culture where speaking up is protected, not punished.",
+      "Support, safety, shared national resources, and an end to drowning in unnecessary tests.",
   },
 ] as const;
 
 export const faqs = [
   {
-    question: "What problems do teachers and children face in schools today?",
-    answer:
-      "Teachers face burnout, behavior stress, time poverty, and understaffing. Children face poverty, chronic absenteeism, anxiety and depression, disengagement, and uneven support — especially in special education, where federal IDEA funding has never matched the original promise. Teach Truth’s Classroom Reality page maps both sides of the desk and connects each pressure to the reform plan.",
-  },
-  {
-    question: "Why does special education matter to Teach Truth’s plan?",
-    answer:
-      "Because every child, not every score is incomplete without students who need IEPs and 504s. Chronic IDEA underfunding and special education vacancies leave rights on paper and children on waitlists. Teach Truth names that broken promise and points back to classroom-led reform.",
-  },
-  {
     question: "What is Teach Truth’s vision?",
     answer:
-      "Teach Truth’s vision is a public education system where every American child is taught by trusted teachers — not managed by tests — and every classroom is a place where learning, dignity, and truth can thrive.",
+      "Teach Truth’s vision is educational, teacher-driven reform of public education — a system where America’s children are taught for mastery by trusted educators, not managed by data theater and rushed grade promotion.",
   },
   {
     question: "What is Teach Truth’s mission?",
     answer:
-      "Teach Truth’s mission is to put teachers back at the wheel of public education: rebuild conditions so educators stay, restore instruction over testing theater, protect every child beyond a score, and make it safe to tell the classroom truth America needs to hear.",
+      "Teach Truth exists to advance Ruth Lerno’s teacher-driven plan to save public education: slow down for mastery, rebuild national education leadership around educators and specialists, teach by skill not only age, grow a free teacher pipeline with real pay, and protect the whole child nationwide.",
   },
   {
     question: "What is Teach Truth?",
     answer:
-      "Teach Truth is the education reform home built around Ruth Lerno’s classroom-led plan to save public education. It pairs a clear reform agenda with Teacher Truth with Ruth — a podcast where educators speak honestly about what children and teachers need.",
+      "Teach Truth is the education reform home for Ruth Lerno’s Save USA Public Education plan and Teacher Truth with Ruth — a podcast where educators speak honestly about what children and teachers need.",
   },
   {
     question: "Who is Ruth Lerno?",
     answer:
-      "Ruth Lerno is a teacher with 25 years of classroom experience and the host of Teacher Truth with Ruth. She is on a mission to reform public education by centering teacher voice, restoring instructional leadership, and fighting for a system America’s children deserve.",
+      "Ruth Lerno is a teacher with 25 years of classroom experience and the host of Teacher Truth with Ruth. Her plan centers teacher-driven reform, teaching for mastery, and a national framework written with educators and specialists in the room.",
+  },
+  {
+    question: "What are Ruth’s top three reasons public education declined?",
+    answer:
+      "In Ruth’s view: society and technology changed faster than classrooms adapted; focus on data collection crowded out teaching; and schools stopped teaching for mastery, pushing students forward with unfinished learning.",
   },
   {
     question: "What does “teachers take the wheel” mean?",
     answer:
-      "It means teachers lead instructional decisions — how to improve learning, raise meaningful grades, and rebuild classrooms people want to return to — instead of surrendering the profession to distant mandates and testing theater.",
+      "It means educators and classroom specialists design the national framework and daily instruction — through teacher-driven councils — instead of leaving reform to the same thinking that created the crisis.",
   },
   {
     question: "How is this different from typical education reform?",
     answer:
-      "Most reform is designed above the classroom. Teach Truth starts inside it: teacher retention, instructional autonomy, whole-child learning, and protected truth-telling. The people doing the work help design the fix.",
+      "Most reform is designed above the classroom. Ruth’s plan starts with slowing down for mastery, rebuilding who governs education, teaching by skill, funding a free teacher pipeline, and protecting the whole child — outdoors, social skills, special education, and life skills included.",
+  },
+  {
+    question: "What problems do teachers and children face in schools today?",
+    answer:
+      "Teachers face burnout, behavior stress, time poverty, and understaffing. Children face poverty, chronic absenteeism, anxiety and depression, disengagement, and uneven support — especially in special education. Teach Truth’s Classroom Reality page maps both sides of the desk and connects each pressure to Ruth’s plan.",
+  },
+  {
+    question: "Why does special education matter to Teach Truth’s plan?",
+    answer:
+      "Because multi-age, skill-level learning and IEP process changes are part of Ruth’s dream for every child. Rights without resources — and unfinished mastery — fail students who need specialized support most.",
   },
   {
     question: "How can teachers get involved?",
     answer:
-      "Take the Wheel on Teach Truth: commit to one action this week — tell your truth, share the plan, invite a colleague, speak up locally, or stand with a teacher. Then listen to Teacher Truth with Ruth on Spotify and use the plan as shared language with colleagues, parents, and leaders.",
+      "Take the Wheel on Teach Truth: commit to one action this week — tell your truth, share the plan, invite a colleague, speak up locally, or stand with a teacher. Ruth’s closing ask is clear: more dreams to come — this is where she needs your help.",
   },
   {
     question: "Why does Teach Truth talk about No Child Left Behind?",
     answer:
-      "Because the slogan still echoes while classroom reality has moved on. No Child Left Behind helped harden a culture of testing theater — kids promised, scores delivered. Teach Truth argues that old promise no longer fits today’s schools: the words said children; the system counted scores.",
+      "Because the slogan still echoes while classroom reality has moved on. No Child Left Behind helped harden testing and data culture — kids promised, scores delivered. Ruth’s plan answers with mastery, less over-testing, and teacher-driven design.",
   },
   {
     question: "How can parents support classroom-led reform?",
     answer:
-      "Ask schools whether policies protect teacher time and judgment, reduce testing theater, and support every child — including those who need specialized services. Then amplify teacher truth instead of outsider slogans.",
+      "Ask whether schools teach for mastery or only push grade promotion, whether outdoor time and social skills matter, and whether special education and teacher conditions are funded like children’s futures depend on them — because they do. Then amplify teacher truth.",
   },
 ] as const;
 
 export const problemPoints = [
   {
-    title: "Teachers are leaving",
-    body: "Experienced educators walk away. Classrooms fill with instability. Children pay first.",
+    title: "Society changed — schools didn’t keep up",
+    body: "Technology and parenting shifts remade childhood. Classrooms absorbed the impact without a teacher-driven redesign.",
   },
   {
-    title: "Testing crowded out teaching",
-    body: "Score chases and compliance rituals steal time from real instruction and care.",
+    title: "Data crowded out teaching",
+    body: "Collection and compliance fill the day. Educators and students fall behind while proving instead of learning.",
   },
   {
-    title: "Voice is punished",
-    body: "Teachers stay quiet to stay employed. Broken systems survive on silence.",
+    title: "Not teaching for mastery",
+    body: "Scaffolded promotion pushes kids forward with unfinished learning — gaps that compound every year.",
   },
 ] as const;

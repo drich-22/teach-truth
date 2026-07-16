@@ -1,8 +1,8 @@
 export const siteConfig = {
   name: "Teach Truth",
-  tagline: "Classroom-led public education reform",
+  tagline: "Educational · Teacher-Driven · Reform",
   description:
-    "Teach Truth is the education reform home of Ruth Lerno — a 25-year classroom teacher and host of Teacher Truth with Ruth. Teachers take the wheel so America's children get a system that finally serves them.",
+    "Teach Truth carries Ruth Lerno’s Save USA Public Education plan — teacher-driven reform to slow down for mastery, rebuild national leadership around educators, and protect America’s children.",
   url: process.env.NEXT_PUBLIC_SITE_URL ?? "https://teachtruth.org",
   podcast: {
     name: "Teacher Truth with Ruth",

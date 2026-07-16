@@ -20,7 +20,7 @@ const display = Inter_Tight({
 export const metadata: Metadata = {
   metadataBase: new URL(siteConfig.url),
   title: {
-    default: `${siteConfig.name} — Classroom-Led Education Reform`,
+    default: `${siteConfig.name} — Teacher-Driven Education Reform`,
     template: `%s | ${siteConfig.name}`,
   },
   description: siteConfig.description,
@@ -30,19 +30,19 @@ export const metadata: Metadata = {
   keywords: [
     "education reform",
     "public education",
-    "teacher retention",
+    "Save USA Public Education",
     "Ruth Lerno",
     "Teacher Truth with Ruth",
     "Teach Truth",
-    "classroom-led reform",
-    "teachers take the wheel",
+    "teacher-driven reform",
+    "teaching for mastery",
   ],
   openGraph: {
     type: "website",
     locale: "en_US",
     url: siteConfig.url,
     siteName: siteConfig.name,
-    title: `${siteConfig.name} — Classroom-Led Education Reform`,
+    title: `${siteConfig.name} — Teacher-Driven Education Reform`,
     description: siteConfig.description,
     images: [
       {

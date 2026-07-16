@@ -79,11 +79,12 @@ export default function JoinPage() {
               Take action
             </p>
             <h1 className="mt-3 max-w-3xl font-display text-4xl font-extrabold tracking-tight text-balance md:text-6xl md:leading-[1.02]">
-              Motivation needs a next step.
+              More dreams to come… this is where she needs your help.
             </h1>
             <p className="answer-lead mt-5 max-w-2xl text-base leading-relaxed text-fog/85 md:text-lg">
-              Teach Truth is not a vibe. It&apos;s a weekly commitment: one
-              action that puts teachers and children first. Start from the{" "}
+              Ruth&apos;s Save USA Public Education plan is a starting map —
+              not a finished product. Take the Wheel is a weekly commitment:
+              one action that advances teacher-driven reform. Start from the{" "}
               <Link
                 href="/reality"
                 className="font-semibold text-blank underline underline-offset-4"
@@ -128,6 +129,10 @@ export default function JoinPage() {
               ,{" "}
               <Link href="/#the-plan" className="font-semibold text-press underline-offset-2 hover:underline">
                 the five pillars
+              </Link>
+              ,{" "}
+              <Link href="/#ruths-dream" className="font-semibold text-press underline-offset-2 hover:underline">
+                Ruth&apos;s dream
               </Link>
               , or{" "}
               <Link href="/ruth" className="font-semibold text-press underline-offset-2 hover:underline">

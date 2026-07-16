@@ -1,11 +1,11 @@
 export const vision = {
   title: "Vision",
   statement:
-    "A public education system where every American child is taught by trusted teachers — not managed by tests — and every classroom is a place where learning, dignity, and truth can thrive.",
+    "Educational, teacher-driven reform of public education — where America’s children are taught for mastery, outdoors and in community, by educators who help write the national framework.",
 } as const;
 
 export const mission = {
   title: "Mission",
   statement:
-    "Teach Truth exists to put teachers back at the wheel of public education: rebuild conditions so educators stay, restore instruction over testing theater, protect every child beyond a score, and make it safe to tell the classroom truth America needs to hear.",
+    "Teach Truth advances Ruth Lerno’s plan to save public education: slow down for mastery, rebuild national leadership around teachers and specialists, teach by skill not only age, grow a free teacher pipeline with real pay, and protect the whole child — from recess to special education to life skills.",
 } as const;

@@ -21,10 +21,10 @@ export const metadata: Metadata = {
 };
 
 const beliefs = [
-  "America’s children deserve a better system — not another slogan.",
-  "Teachers who feel seen stay. Teachers who stay save classrooms.",
-  "Difficult conversations are not optional. They are the work.",
-  "Truth from the classroom is the only reform that will last.",
+  "We cannot solve education’s problems with the same thinking that created them.",
+  "Slow down. Teach for mastery. Stop pushing kids forward with unfinished learning.",
+  "Educators and specialists — not distant data culture — should write the national framework.",
+  "More dreams to come… this is where Ruth needs your help.",
 ];
 
 export default function RuthPage() {
@@ -156,26 +156,26 @@ export default function RuthPage() {
               From podcast truth to a reform plan
             </h2>
             <p className="answer-lead mt-5 text-base leading-relaxed text-charcoal md:text-lg">
-              Teach Truth turns Ruth&apos;s classroom mission into a public
-              agenda: teachers take the wheel, educators come back, learning
-              beats testing theater, every child matters beyond a score, and
-              truth is protected.
+              Teach Truth carries Ruth&apos;s Save USA Public Education plan:
+              slow down for mastery, teacher-driven councils, skill not just
+              age, a free teacher pipeline with real pay, and whole-child
+              reform from recess to life skills.
             </p>
             <Link href="/#the-plan" className="btn-primary mt-8">
               Read the five pillars
             </Link>
             <div className="mt-4 flex flex-wrap gap-4 text-sm font-semibold">
               <Link
-                href="/reality"
+                href="/#councils"
                 className="text-press underline-offset-4 hover:underline"
               >
-                See classroom reality →
+                See the councils →
               </Link>
               <Link
-                href="/#no-child-left-behind"
+                href="/#ruths-dream"
                 className="text-press underline-offset-4 hover:underline"
               >
-                Why NCLB no longer fits →
+                Ruth&apos;s full dream →
               </Link>
             </div>
           </Reveal>

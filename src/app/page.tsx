@@ -1,27 +1,41 @@
 import type { Metadata } from "next";
 import Image from "next/image";
 import Link from "next/link";
+import {
+  CouncilsSection,
+  EinsteinBand,
+  HelpCloseSection,
+  NationalChangesSection,
+  RuthDreamsSection,
+  TopReasonsSection,
+  WhereWeBeginSection,
+} from "@/components/DeckSections";
 import { DualLedgerSection } from "@/components/DualLedgerSection";
 import { Reveal } from "@/components/Reveal";
 import { SpedHomeInterrupt } from "@/components/SpedHomeInterrupt";
 import { TakeTheWheelForm } from "@/components/TakeTheWheelForm";
 import { UnitedStatesOutline } from "@/components/UnitedStatesOutline";
 import { JsonLd, Section } from "@/components/ui";
-import { faqs, pillars, problemPoints } from "@/lib/content";
+import { faqs, pillars } from "@/lib/content";
+import {
+  deckQuestion,
+  deckTagline,
+  helpClose,
+} from "@/lib/ruth-deck";
 import { homeGraph } from "@/lib/seo/schema";
 import { siteConfig } from "@/lib/site";
 import { actionOptions } from "@/lib/take-action";
 import { mission, vision } from "@/lib/vision";
 
 export const metadata: Metadata = {
-  title: "Education Reform — Teachers Take the Wheel",
+  title: "How Do We Save Public Education?",
   description:
-    "Teach Truth’s classroom-led plan to reform American public education: teachers take the wheel, bring teachers back, end testing theater, put every child first, and protect truth without fear.",
+    "Ruth Lerno’s teacher-driven plan to save USA public education: slow down for mastery, reform national leadership with educator councils, teach by skill not only age, build a free teacher pipeline, and protect the whole child.",
   alternates: { canonical: "/" },
   openGraph: {
-    title: "Education Reform — Teachers Take the Wheel | Teach Truth",
+    title: "How Do We Save Public Education? | Teach Truth",
     description:
-      "A classroom-led reform plan for America’s children — led by teacher Ruth Lerno.",
+      "Educational · Teacher-Driven · Reform — Ruth Lerno’s Save USA Public Education plan.",
     url: "/",
   },
 };
@@ -42,28 +56,30 @@ export default function HomePage() {
         />
         <div className="absolute inset-0 bg-gradient-to-r from-black via-black/75 to-black/25" />
         <div className="relative mx-auto flex min-h-[92vh] max-w-[1200px] flex-col justify-end px-5 pb-16 pt-28 md:justify-center md:px-8 md:pb-24 md:pt-20">
-          <p className="reveal font-display text-4xl font-extrabold tracking-tight text-balance sm:text-5xl md:text-7xl lg:text-[5.5rem] lg:leading-[0.95]">
+          <p className="reveal text-xs font-semibold uppercase tracking-[0.18em] text-fog/80">
+            {deckTagline}
+          </p>
+          <p className="reveal reveal-delay-1 mt-4 font-display text-4xl font-extrabold tracking-tight text-balance sm:text-5xl md:text-7xl lg:text-[5.5rem] lg:leading-[0.95]">
             {siteConfig.name}
           </p>
-          <h1 className="reveal reveal-delay-1 mt-5 max-w-3xl font-display text-2xl font-bold tracking-tight text-balance sm:text-3xl md:text-5xl md:leading-[1.08]">
-            Teachers take the wheel. Children get a system that finally serves
-            them.
+          <h1 className="reveal reveal-delay-2 mt-5 max-w-3xl font-display text-2xl font-bold tracking-tight text-balance sm:text-3xl md:text-5xl md:leading-[1.08]">
+            {deckQuestion}
           </h1>
-          <p className="reveal reveal-delay-2 answer-lead mt-5 max-w-xl text-base leading-relaxed text-fog/90 md:text-lg">
-            Public education will not be fixed from a boardroom.{" "}
+          <p className="reveal reveal-delay-3 answer-lead mt-5 max-w-xl text-base leading-relaxed text-fog/90 md:text-lg">
             {siteConfig.founder.name} — {siteConfig.founder.yearsInClassroom}{" "}
-            years in the classroom — is building classroom-led reform so
-            teachers return, learning returns, and America&apos;s kids win.
+            years in the classroom — answers with teacher-driven reform: slow
+            down for mastery, put educators on the councils that write policy,
+            and build a system America&apos;s children can actually grow in.
           </p>
-          <div className="reveal reveal-delay-3 mt-8 flex flex-wrap gap-3">
-            <Link href="#the-plan" className="btn-on-dark">
+          <div className="reveal reveal-delay-4 mt-8 flex flex-wrap gap-3">
+            <Link href="#where-we-begin" className="btn-on-dark">
+              Where we begin
+            </Link>
+            <Link href="#the-plan" className="btn-ghost-on-dark">
               Read the plan
             </Link>
-            <Link href="/reality" className="btn-ghost-on-dark">
-              See the reality
-            </Link>
             <Link href="/join" className="btn-ghost-on-dark">
-              Take action
+              Help Ruth build it
             </Link>
           </div>
         </div>
@@ -72,45 +88,23 @@ export default function HomePage() {
       <Section tone="light" className="py-16 md:py-20">
         <Reveal className="key-takeaways max-w-3xl">
           <h2 className="font-display text-2xl font-extrabold tracking-tight md:text-3xl">
-            What is classroom-led education reform?
+            What is teacher-driven education reform?
           </h2>
           <p className="answer-lead mt-4 text-lg leading-relaxed text-charcoal">
-            Classroom-led education reform puts teachers in charge of
-            instruction, rebuilds conditions so educators stay, reduces testing
-            theater, protects every child beyond a score, and makes it safe for
-            teachers to tell the truth about what schools need.
+            Teacher-driven reform puts educators and specialists in charge of
+            the national framework: teach for mastery instead of rushing grade
+            promotion, redesign who governs education, group learners by skill,
+            grow a free teacher pipeline with real pay, and protect the whole
+            child — outdoors, social skills, special education, and life
+            skills included.
           </p>
         </Reveal>
       </Section>
 
-      <Section tone="dark" className="py-20 md:py-28">
-        <Reveal>
-          <p className="text-xs font-semibold uppercase tracking-[0.16em] text-slate">
-            The break
-          </p>
-          <h2 className="mt-3 max-w-3xl font-display text-3xl font-extrabold tracking-tight text-balance md:text-5xl">
-            Stand in a classroom right now and the crisis is obvious.
-          </h2>
-        </Reveal>
-        <div className="mt-12 grid gap-4 md:grid-cols-3">
-          {problemPoints.map((point, i) => (
-            <Reveal
-              key={point.title}
-              delay={(Math.min(i + 1, 3) as 1 | 2 | 3)}
-              className="rounded-2xl bg-blank p-8 text-press"
-            >
-              <h3 className="font-display text-xl font-bold tracking-tight">
-                {point.title}
-              </h3>
-              <p className="mt-3 text-sm leading-relaxed text-charcoal">
-                {point.body}
-              </p>
-            </Reveal>
-          ))}
-        </div>
-      </Section>
-
+      <WhereWeBeginSection />
+      <TopReasonsSection />
       <DualLedgerSection />
+      <EinsteinBand />
 
       <Section id="vision" tone="dark" className="py-20 md:py-28">
         <div className="grid items-center gap-12 lg:grid-cols-[1fr_1.05fr] lg:gap-16">
@@ -120,12 +114,11 @@ export default function HomePage() {
                 Vision &amp; mission
               </p>
               <h2 className="mt-3 font-display text-3xl font-extrabold tracking-tight text-balance md:text-5xl">
-                This is bigger than one classroom.
+                Save USA public education — from the classroom out.
               </h2>
               <p className="answer-lead mt-5 text-base leading-relaxed text-fog/85 md:text-lg">
-                Teach Truth is a national call — for America&apos;s teachers,
-                America&apos;s children, and a public system that finally puts
-                both first.
+                Teach Truth carries Ruth&apos;s national proposal: educational,
+                teacher-driven reform for every state and every child.
               </p>
             </Reveal>
 
@@ -153,11 +146,11 @@ export default function HomePage() {
             <div className="rounded-2xl bg-blank/5 px-4 py-8 ring-1 ring-white/10 md:px-8 md:py-10">
               <UnitedStatesOutline className="mx-auto max-w-xl" tone="paper" />
               <p className="mt-6 text-center font-display text-lg font-bold tracking-tight text-blank md:text-xl">
-                Every state. Every child. One truth.
+                Every state. Every child. One plan.
               </p>
               <p className="mx-auto mt-2 max-w-sm text-center text-sm leading-relaxed text-slate">
-                Classroom-led reform isn&apos;t a local side project. It&apos;s
-                how America rebuilds public education from the inside out.
+                A national B–14 / B–18 framework written by educators and
+                specialists — with room for states to add, not ignore kids.
               </p>
             </div>
           </Reveal>
@@ -170,13 +163,13 @@ export default function HomePage() {
             The plan
           </p>
           <h2 className="mt-3 max-w-3xl font-display text-3xl font-extrabold tracking-tight text-balance md:text-5xl">
-            Five pillars for a system children deserve.
+            Five pillars from Ruth&apos;s Save USA Public Education proposal.
           </h2>
           <p className="answer-lead mt-5 max-w-2xl text-base leading-relaxed text-charcoal md:text-lg">
-            The Teach Truth plan is built from the classroom out: teacher
-            judgment, teacher retention, real learning, whole-child dignity, and
-            protected truth-telling. These are the stakes for America&apos;s
-            teachers and America&apos;s children.
+            Slow down for mastery. Teacher-driven governance. Skill, not just
+            age. A free teacher pipeline with real pay. Whole child, whole
+            nation. These are the stakes for America&apos;s teachers and
+            America&apos;s children.
           </p>
         </Reveal>
 
@@ -228,7 +221,10 @@ export default function HomePage() {
         </ol>
       </Section>
 
-      {/* NCLB — manifesto interrupt */}
+      <CouncilsSection />
+      <NationalChangesSection />
+      <RuthDreamsSection />
+
       <section
         id="no-child-left-behind"
         className="overflow-hidden bg-press text-blank"
@@ -237,7 +233,7 @@ export default function HomePage() {
         <div className="mx-auto max-w-[1200px] px-5 py-20 md:px-8 md:py-28">
           <Reveal>
             <p className="text-xs font-semibold uppercase tracking-[0.16em] text-slate">
-              A promise that aged badly
+              Why data crowded out teaching
             </p>
             <p
               id="nclb-heading"
@@ -257,19 +253,16 @@ export default function HomePage() {
           <div className="mt-12 grid gap-10 border-t border-white/15 pt-10 md:grid-cols-[1.2fr_0.8fr] md:gap-16">
             <Reveal delay={1}>
               <p className="answer-lead max-w-2xl text-base leading-relaxed text-fog/85 md:text-lg">
-                &ldquo;No Child Left Behind&rdquo; was meant to be a vow. In
-                today&apos;s classrooms it feels like a museum plaque — still
-                spoken, rarely believed. What started as a promise about kids
-                hardened into pacing guides, practice tests, and dashboards.
-                The slogan stayed. The child got harder to see.
+                Ruth names focus on data as a top reason public education
+                declined. &ldquo;No Child Left Behind&rdquo; hardened that
+                culture: pacing guides, practice tests, and dashboards where a
+                vow about kids used to be. The slogan stayed. Mastery got
+                harder to protect.
               </p>
               <p className="mt-5 max-w-2xl text-sm leading-relaxed text-slate md:text-base">
-                Ruth has lived that shift: instruction crowded out by proving,
-                special education squeezed by accountability theater, teachers
-                punished for telling the truth about what kids actually need.
-                If that old promise no longer fits the country we&apos;re
-                raising children in, the answer isn&apos;t louder testing — it&apos;s
-                putting teachers back at the wheel.
+                Her answer is not louder testing — it is one consistent national
+                screener, teaching for mastery, and forward–back time to reteach
+                before kids are pushed forward again.
               </p>
             </Reveal>
             <Reveal delay={2}>
@@ -285,9 +278,8 @@ export default function HomePage() {
                   no score left uncounted.
                 </p>
                 <p className="mt-5 text-sm leading-relaxed text-blank/85">
-                  And somehow, after all that counting, we still lost them —
-                  their curiosity, their childhood, their teachers who walked
-                  away.
+                  Ruth&apos;s dream: stop over-testing. Guide each child&apos;s
+                  path individually — with valid growth data, not fatigue.
                 </p>
               </aside>
             </Reveal>
@@ -317,9 +309,9 @@ export default function HomePage() {
               Why this matters now
             </p>
             <p className="mt-3 text-lg font-semibold leading-snug text-blank md:text-xl">
-              When experienced teachers leave, children lose continuity,
-              expertise, and advocates. Reform that does not bring teachers back
-              fails children first.
+              Free teacher colleges, real pay, and councils of educators are how
+              America brings teachers back — and keeps mastery in the room for
+              every child.
             </p>
           </Reveal>
         </div>
@@ -345,9 +337,9 @@ export default function HomePage() {
             </h2>
             <p className="answer-lead mt-5 text-base leading-relaxed text-charcoal md:text-lg">
               Ruth Lerno is a {siteConfig.founder.yearsInClassroom}-year teacher
-              and the host of {siteConfig.podcast.name}. She is building Teach
-              Truth so public education reform starts with people who still
-              stand in front of children every day.
+              and the host of {siteConfig.podcast.name}. Teach Truth carries her
+              Save USA Public Education plan so reform starts with people who
+              still stand in front of children every day.
             </p>
             <div className="mt-8 flex flex-wrap gap-3">
               <Link href="/ruth" className="btn-primary">
@@ -376,8 +368,8 @@ export default function HomePage() {
           </h2>
           <p className="mt-5 text-base leading-relaxed text-fog/85 md:text-lg">
             A platform for teachers to tell their truth — because silence
-            protects broken systems, and truth is how we build a better one for
-            every child.
+            protects broken systems, and truth is how we build Ruth&apos;s plan
+            into reality for every child.
           </p>
         </Reveal>
         <Reveal delay={1} className="mt-10 overflow-hidden rounded-2xl bg-blank/5 ring-1 ring-white/10">
@@ -400,12 +392,12 @@ export default function HomePage() {
               Take the wheel
             </p>
             <h2 className="mt-3 font-display text-3xl font-extrabold tracking-tight text-balance md:text-5xl">
-              Feeling fired up isn&apos;t the same as doing something.
+              {helpClose.title}
             </h2>
             <p className="answer-lead mt-5 text-base leading-relaxed text-fog/85 md:text-lg">
-              Commit to one action this week — tell your truth, share the plan,
-              invite a colleague, speak up locally, or stand with a teacher.
-              We&apos;ll give you a checklist so the energy turns into motion.
+              {helpClose.body} Commit to one action this week — tell your truth,
+              share the plan, invite a colleague, speak up locally, or stand
+              with a teacher.
             </p>
             <ul className="mt-8 space-y-3 text-sm text-fog/75">
               {actionOptions.map((item) => (
@@ -468,28 +460,7 @@ export default function HomePage() {
         </div>
       </Section>
 
-      <Section tone="dark" className="py-20 md:py-28">
-        <Reveal className="max-w-3xl">
-          <h2 className="font-display text-3xl font-extrabold tracking-tight text-balance md:text-5xl">
-            If you care about children, the next conversation starts here.
-          </h2>
-          <p className="mt-5 text-base leading-relaxed text-fog/85 md:text-lg">
-            Share the plan. Listen to the podcast. Bring a colleague. Reform
-            scales when teachers stop whispering alone.
-          </p>
-          <div className="mt-8 flex flex-wrap gap-3">
-            <Link href="/join" className="btn-on-dark">
-              Take the wheel
-            </Link>
-            <Link href="/reality" className="btn-ghost-on-dark">
-              See the reality
-            </Link>
-            <Link href="/ruth" className="btn-ghost-on-dark">
-              Meet Ruth
-            </Link>
-          </div>
-        </Reveal>
-      </Section>
+      <HelpCloseSection />
     </>
   );
 }
