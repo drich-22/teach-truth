@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { Inter_Tight, Plus_Jakarta_Sans } from "next/font/google";
+import { ClientReviewHost } from "@/components/review/ClientReviewHost";
 import { SiteFooter, SiteHeader } from "@/components/SiteChrome";
 import { siteConfig } from "@/lib/site";
 import "./globals.css";
@@ -79,6 +80,7 @@ export default function RootLayout({
         <SiteHeader />
         <main className="flex-1">{children}</main>
         <SiteFooter />
+        <ClientReviewHost />
       </body>
     </html>
   );
