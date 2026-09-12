@@ -1,14 +1,16 @@
 "use client";
 
-import dynamic from "next/dynamic";
+import { useEffect, useState } from "react";
+import { shouldShowReviewBubble } from "@/lib/review-surface";
+import { ReviewBubble } from "./ReviewBubble";
 
-const ReviewBubble = dynamic(
-  () =>
-    import("@/components/review/ReviewBubble").then((m) => m.ReviewBubble),
-  { ssr: false },
-);
-
-/** Staging / Preview client-review host — no-op on live domains. */
 export function ClientReviewHost() {
+  const [show, setShow] = useState(false);
+
+  useEffect(() => {
+    setShow(shouldShowReviewBubble());
+  }, []);
+
+  if (!show) return null;
   return <ReviewBubble />;
 }
